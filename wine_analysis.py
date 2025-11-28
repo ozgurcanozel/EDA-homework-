@@ -31,3 +31,6 @@ plt.show()
 sns.displot(x="alcohol", data=data, kind = "kde")
 plt.xlabel("Alcohol")
 plt.show()
+
+data["quality"].value_counts().plot(kind="pie")
+plt.show()
