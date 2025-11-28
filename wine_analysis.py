@@ -18,3 +18,10 @@ plt.show()
 # How do you list how many different score types there are in the quality column (e.g. 3, 4, 5, 6...) and how many wines there are with each score?
 print(data.columns)
 print(data['quality'].unique())
+
+# Can you draw a histogram to see the distribution of quality scores for the wines? (Is the data balanced or clustered at specific scores?)
+sns.countplot(x='quality', data=data)
+plt.title("Count of quality")
+plt.xlabel("Quality")
+plt.ylabel("Count")
+plt.show()
