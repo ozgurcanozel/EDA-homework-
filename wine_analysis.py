@@ -34,3 +34,6 @@ plt.show()
 
 data["quality"].value_counts().plot(kind="pie")
 plt.show()
+
+sns.boxplot( x="free sulfur dioxide", y="quality", data=data)
+plt.show()
