@@ -25,3 +25,9 @@ plt.title("Count of quality")
 plt.xlabel("Quality")
 plt.ylabel("Count")
 plt.show()
+
+# Can you draw the distribution of alcohol percentages and add the density curve to it?
+
+sns.displot(x="alcohol", data=data, kind = "kde")
+plt.xlabel("Alcohol")
+plt.show()
