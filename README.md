@@ -118,3 +118,4 @@ Shows percentage distribution of each quality class.
 -   Low multicollinearity\
 -   Alcohol is the dominant factor influencing wine quality
 
+![Uploading Screenshot 2025-11-29 141836.png…]()
